@@ -1,0 +1,91 @@
+create database courierData;
+
+use CourierData;
+
+Create table AdminLoginTab
+(uName varchar(50),
+pWord varchar(50));
+
+insert into AdminLoginTab values('admin','admin');
+
+
+Create table StateTab
+(StateName varchar(50),
+details varchar(50));
+
+
+Create table CityTab
+(cityName varchar(50),
+details varchar(50),
+statename varchar(50));
+
+
+
+Create table CourierTypeTab
+(CourierTypeName varchar(50),
+details varchar(50));
+
+Create table ChargeTab
+(CourierTypeName varchar(50),
+fPlace varchar(50),
+tPlace varchar(250),
+cPrice int);
+
+Create table AgentTab
+(uName varchar(50),
+pWord varchar(50),
+AgentName varchar(50),
+aAdd varchar(250),
+cityname varchar(50),
+statename  varchar(50),
+MobileNo  varchar(50),
+email  varchar(50));
+
+
+Create table BookingTab
+(bookno int,
+bdate date,
+CourierTypeName varchar(50),
+fPlace  varchar(50),
+tPlace  varchar(50),
+cPrice int,
+fCustName  varchar(50),
+fAdd  varchar(250),
+fNo  varchar(20),
+tCustName  varchar(50),
+tAdd  varchar(250),
+tNo  varchar(20),
+details varchar(250),
+agentcode varchar(50),
+cStatus  varchar(50));
+
+
+insert into bookingtab(bookno) values(1000);
+
+
+
+
+
+
+
+
+ 
+=====================================================================
+
+Please contact us if you any project requirements.
+
+Real time or Academics 
+
+We do project in VB, VB.net, ASP.net, C#, MS SqlServer, Java, JSP, PHP, Mysql, Python, Android, Electronics, IOT etc.,
+
+You can share your project related queries here. We have around 20 years of experience in developing projects in VB, VB.net, ASP.net, C#, MS SqlServer, Java, JSP, PHP, Mysql, Python, Android. We specialize in providing be final year project along with proper guidance  and training. We provide all these so that students can get real time knowledge along with training and guidance throughout their final year. By joining our institute not only you will complete your project, you gain lot of subject knowledge and project experience.
+
+Please contact us at.
+HighBlix Projects
+No 826, 9th Main, Hampinagar
+Bangalore, Karnataka, India. Pin - 560104.
+email : highblix@gmail.com
+
+Whatsapp No : 9243101428, 7019755620
+
+
